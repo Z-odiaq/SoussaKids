@@ -1,56 +1,75 @@
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using System.Collections;
-using UnityEngine.UI;
 
 public class camera : MonoBehaviour
 {
-    private float Origin;
 
-    public float cameraMaxY = 38;
-    public float cameraMinY = -50;
- 
-    private float Diference;
-    private bool Drag = false;
+    [SerializeField]
+    private Camera cam; 
 
+
+    [SerializeField]
+    private SpriteRenderer mapRenderer;
+    private float mapMinX, mapMaxX, mapMinY, mapMaxY;
+
+    private Vector3 dragOrigin;
+
+
+    private void Awake()
+    {
+        mapMinX = mapRenderer.transform.position.x - mapRenderer.bounds.size.x / 2f;
+        mapMaxX = mapRenderer.transform.position.x + mapRenderer.bounds.size.x / 2f;
+
+        mapMinY = mapRenderer.transform.position.y - mapRenderer.bounds.size.y / 2f;
+        mapMaxY = mapRenderer.transform.position.y + mapRenderer.bounds.size.y / 2f;
+    }
+
+
+    // Start is called before the first frame update
     void Start()
     {
 
     }
-    void LateUpdate()
+
+    // Update is called once per frame
+    void Update()
     {
+        PanCamera();
+    }
+
+    private void PanCamera()
+    {
+
+        if (Input.GetMouseButtonDown(0))
+            dragOrigin = cam.ScreenToWorldPoint(Input.mousePosition);
+
         if (Input.GetMouseButton(0))
         {
+            Vector3 difference = dragOrigin - cam.ScreenToWorldPoint(Input.mousePosition);
+            print("origin " + dragOrigin + " newPosition " + cam.ScreenToWorldPoint(Input.mousePosition) + " =difference" + difference);
 
-            Diference = (Camera.main.ScreenToWorldPoint(Input.mousePosition)).y - Camera.main.transform.position.y;
-            if (Drag == false)
-            {
-                Drag = true;
-                Origin = Camera.main.ScreenToWorldPoint(Input.mousePosition).y;
-            }
-        }else
-        {
-            Drag = false;
-        }
-        if (Drag == true)
-        {
-            if (cameraMaxY < Origin - Diference)
-            {
-                Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, cameraMaxY, Camera.main.transform.position.z);
-            }
-            else if (cameraMinY > Origin - Diference)
-            {
+            cam.transform.position = ClampCamera(cam.transform.position + difference);   
 
-                Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, cameraMinY, Camera.main.transform.position.z);
-            }
-            else
-            {
-
-                Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, Origin - Diference, Camera.main.transform.position.z);
-
-            }
         }
 
 
+    }
 
+
+    private Vector3 ClampCamera(Vector3 targetPosition)
+    {
+        float camHeight = cam.orthographicSize;
+        float camWidth = cam.orthographicSize * cam.aspect;
+
+        float minX = mapMinX + camWidth;
+        float maxX = mapMaxX - camWidth;
+        float minY = mapMinY + camHeight;
+        float maxY = mapMaxY - camHeight;
+
+        float newX = Mathf.Clamp(targetPosition.x, minX, maxX);
+        float newY = Mathf.Clamp(targetPosition.y, minY, maxY);
+
+        return new Vector3(newX, newY, targetPosition.z);
     }
 }
