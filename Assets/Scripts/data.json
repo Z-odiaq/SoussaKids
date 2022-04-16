@@ -1,0 +1,36 @@
+﻿{
+  "places":
+  [
+    {
+      "place": "mohamed v",
+      "info": "sfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
+      "puzzle": 1,
+      "puzzleData": {
+        "question1": "answer1",
+        "question2": "answer2",
+        "question3": "answer3"
+
+      }
+    },
+    {
+      "place": "mohamed v",
+      "info": "sfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
+      "puzzle": 2,
+      "puzzleData": {
+        "dates": [ 1990, 1992, 1996, 2005 ],
+        "events": [ "evnt1", "evnt2", "evnt3", "evnt4" ]
+      }
+    },
+    {
+      "place": "mohamed v",
+      "info": "sfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
+      "puzzle": 3,
+      "puzzleData": {
+        "source": "image1"
+      }
+    }
+  ],
+  "ui":[
+    { "menu": "menu1" }
+  ]
+}
