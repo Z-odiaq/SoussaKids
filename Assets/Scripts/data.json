@@ -1,36 +1,125 @@
 ﻿{
-  "places":
-  [
+
+  "placesEN": [
     {
       "place": "mohamed v",
-      "info": "sfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
+      "info": "ENsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
       "puzzle": 1,
       "puzzleData": {
-        "question1": "answer1",
-        "question2": "answer2",
-        "question3": "answer3"
+        "questions": [ "ENquestion1", "question2", "question3" ],
+        "answers": [ "answer1", "answer2", "answer3" ]
+
 
       }
     },
     {
       "place": "mohamed v",
-      "info": "sfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
+      "info": "ENsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
       "puzzle": 2,
       "puzzleData": {
-        "dates": [ 1990, 1992, 1996, 2005 ],
-        "events": [ "evnt1", "evnt2", "evnt3", "evnt4" ]
+        "questions": [ "1990", "1992", "1996", "2005" ],
+        "answers": [ "ENevnt1", "evnt2", "evnt3", "evnt4" ]
+      }
+    },
+    {
+      "place": "mohamed6",
+      "info": "ENsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
+      "puzzle": 3,
+      "puzzleData": {
+        "questions": "image1",
+        "answers": [ "2", "1", "4", "6" ]
+      }
+    }
+  ],
+  "placesFR": [
+    {
+      "place": "mohamed v",
+      "info": "FRsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
+      "puzzle": 1,
+      "puzzleData": {
+        "questions": [ "FRquestion1", "question2", "question3" ],
+        "answers": [ "answer1", "answer2", "answer3" ]
+
+
       }
     },
     {
       "place": "mohamed v",
-      "info": "sfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
+      "info": "FRsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
+      "puzzle": 2,
+      "puzzleData": {
+        "questions": [ "1990", "1992", "1996", "2005" ],
+        "answers": [ "FRevnt1", "evnt2", "evnt3", "evnt4" ]
+      }
+    },
+    {
+      "place": "mohamed6",
+      "info": "FRsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
       "puzzle": 3,
       "puzzleData": {
-        "source": "image1"
+        "questions": "image1",
+        "answers": [ "2", "1", "4", "6" ]
       }
     }
   ],
-  "ui":[
-    { "menu": "menu1" }
-  ]
+  "placesAR": [
+    {
+      "place": "mohamed v",
+      "info": "ARsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
+      "puzzle": 1,
+      "puzzleData": {
+        "questions": [ "Aquestion1", "question2", "question3" ],
+        "answers": [ "Aanswer1", "answer2", "answer3" ]
+
+
+      }
+    },
+    {
+      "place": "mohamed v",
+      "info": "ARsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
+      "puzzle": 2,
+      "puzzleData": {
+        "questions": [ "1990", "1992", "1996", "2005" ],
+        "answers": [ "Aevnt1", "evnt2", "evnt3", "evnt4" ]
+      }
+    },
+    {
+      "place": "mohamed6",
+      "info": "ARsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
+      "puzzle": 3,
+      "puzzleData": {
+        "questions": "image1",
+        "answers": [ "2", "1", "4", "6" ]
+      }
+    }
+  ],
+  "settings": {
+    "lang": "EN",
+    "vol": 50
+  },
+  "uiEN": {
+    "menu": "Menu",
+    "settings": "Settings",
+    "about": "About",
+    "Exit": "Exit",
+    "contact": "Contact",
+    "Congrats": "Congratulations",
+    "try": "Try Again",
+    "correct": "correct"
+  },
+  "uiFR": {
+    "menu": "Menu",
+    "settings": "Paramètres",
+    "about": "A propos",
+    "Exit": "Quité",
+    "contact": "Contacte",
+    "Congrats": "Félicitaion",
+    "try": "Essayer Encore",
+    "correct": "correct"
+
+  },
+  "uiAR": {
+    "menu": "menuAR"
+
+  }
 }
