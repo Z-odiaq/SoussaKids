@@ -5,20 +5,50 @@ using System.IO;
 
 
 [System.Serializable]
-public class jdata
+public class Settings
+{
+    public string lang;
+    public int vol;
+
+}
+
+[System.Serializable]
+public class SettingsG
+{
+    public Settings settings;
+
+}
+
+[System.Serializable]
+public class Places
 {
     public string place;
     public string info;
     public string puzzle;
-    public string puzzleData;
+    public PuzzleData puzzleData;
 
+}
+
+
+[System.Serializable]
+public class PlacesList
+{
+    public Places[] placesFR;
+    public Places[] placesEN;
+
+}
+[System.Serializable]
+
+public class PuzzleData
+{
+    public string[] questions;
+    public string[] answers;
 }
 public class star : MonoBehaviour
 {
+    public PlacesList placeslistFR = new PlacesList();
+    public SettingsG settings = new SettingsG();
 
-    public string PlaceID = "";
-    public string title = "";
-    public string desc = "";
     public TextAsset jsonFile;
 
 
@@ -26,8 +56,10 @@ public class star : MonoBehaviour
     void Start()
     {
 
-        jdata[] employeesInJson = JsonUtility.FromJson<jdata[]>(jsonFile.text);
-        Debug.Log(employeesInJson[0].place);
+        placeslistFR = JsonUtility.FromJson<PlacesList>(jsonFile.text);
+        settings = JsonUtility.FromJson<SettingsG>(jsonFile.text);
+
+        //Debug.Log(placeslist.place);
     }
 
     // Update is called once per frame
