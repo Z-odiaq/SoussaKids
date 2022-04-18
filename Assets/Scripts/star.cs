@@ -20,10 +20,11 @@ public class SettingsG
 }
 
 [System.Serializable]
-public class Places
+public class Place
 {
-    public string place;
+    public string name;
     public string info;
+    public string[] pictures;
     public string puzzle;
     public PuzzleData puzzleData;
 
@@ -33,8 +34,25 @@ public class Places
 [System.Serializable]
 public class PlacesList
 {
-    public Places[] placesFR;
-    public Places[] placesEN;
+    public Place[] placesFR;
+    public Place[] placesEN;
+    public Place[] placesAR;
+
+    public Place[] GetPlaces(string lang)
+    {
+        if (lang == "EN")
+        {
+            return placesEN;
+        }
+        else if (lang == "FR")
+        {
+            return placesFR;
+        }
+        else
+        {
+            return placesAR;
+        }
+    }
 
 }
 [System.Serializable]
@@ -46,29 +64,43 @@ public class PuzzleData
 }
 public class star : MonoBehaviour
 {
-    public PlacesList placeslistFR = new PlacesList();
+
+    public PlacesList placeslists = new PlacesList();
     public SettingsG settings = new SettingsG();
-
+    public string PlaceName = "";
+    public GameObject placeControler;
+    public GameObject placeDesc;
+    public GameObject placetitle;
     public TextAsset jsonFile;
-
 
     // Start is called before the first frame update
     void Start()
     {
 
-        placeslistFR = JsonUtility.FromJson<PlacesList>(jsonFile.text);
-        settings = JsonUtility.FromJson<SettingsG>(jsonFile.text);
+            placeslists = JsonUtility.FromJson<PlacesList>(jsonFile.text);
+            settings = JsonUtility.FromJson<SettingsG>(jsonFile.text);
 
-        //Debug.Log(placeslist.place);
     }
 
     // Update is called once per frame
     void Update()
     {
+ 
+    }
+    void OnMouseDown()
+    {
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("clicked");
-
+            string lang = settings.settings.lang == "EN" ? "placesFR" : settings.settings.lang == "FR" ? "placesFR" : "placesAR";
+            foreach (Place place in placeslists.GetPlaces(lang))
+            {
+                if (place.name.ToLower() == PlaceName.ToLower())
+                {
+                    placeDesc.GetComponent<UnityEngine.UI.Text>().text = place.info;
+                    placetitle.GetComponent<UnityEngine.UI.Text>().text = place.name;
+                }
+            }
+            placeControler.SetActive(true);
         }
     }
 }

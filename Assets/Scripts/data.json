@@ -2,9 +2,10 @@
 
   "placesEN": [
     {
-      "place": "mohamed v",
+      "name": "mohamed 1",
       "info": "ENsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
       "puzzle": 1,
+      "pictures": ["pic1.png", "pic2.png"],
       "puzzleData": {
         "questions": [ "ENquestion1", "question2", "question3" ],
         "answers": [ "answer1", "answer2", "answer3" ]
@@ -13,18 +14,22 @@
       }
     },
     {
-      "place": "mohamed v",
+      "name": "mohamed 2",
       "info": "ENsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
       "puzzle": 2,
+      "pictures": [ "pic1.png", "pic2.png" ],
+
       "puzzleData": {
         "questions": [ "1990", "1992", "1996", "2005" ],
         "answers": [ "ENevnt1", "evnt2", "evnt3", "evnt4" ]
       }
     },
     {
-      "place": "mohamed6",
+      "name": "mohamed 3",
       "info": "ENsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
       "puzzle": 3,
+      "pictures": [ "pic1.png", "pic2.png" ],
+
       "puzzleData": {
         "questions": "image1",
         "answers": [ "2", "1", "4", "6" ]
@@ -33,9 +38,11 @@
   ],
   "placesFR": [
     {
-      "place": "mohamed v",
+      "name": "mohamed 1",
       "info": "FRsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
       "puzzle": 1,
+      "pictures": [ "pic1.png", "pic2.png" ],
+
       "puzzleData": {
         "questions": [ "FRquestion1", "question2", "question3" ],
         "answers": [ "answer1", "answer2", "answer3" ]
@@ -44,18 +51,22 @@
       }
     },
     {
-      "place": "mohamed v",
+      "name": "mohamed 2",
       "info": "FRsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
       "puzzle": 2,
+      "pictures": [ "pic1.png", "pic2.png" ],
+
       "puzzleData": {
         "questions": [ "1990", "1992", "1996", "2005" ],
         "answers": [ "FRevnt1", "evnt2", "evnt3", "evnt4" ]
       }
     },
     {
-      "place": "mohamed6",
+      "name": "mohamed 3",
       "info": "FRsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
       "puzzle": 3,
+      "pictures": [ "pic1.png", "pic2.png" ],
+
       "puzzleData": {
         "questions": "image1",
         "answers": [ "2", "1", "4", "6" ]
@@ -64,9 +75,11 @@
   ],
   "placesAR": [
     {
-      "place": "mohamed v",
+      "name": "mohamed 1",
       "info": "ARsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
       "puzzle": 1,
+      "pictures": [ "pic1.png", "pic2.png" ],
+
       "puzzleData": {
         "questions": [ "Aquestion1", "question2", "question3" ],
         "answers": [ "Aanswer1", "answer2", "answer3" ]
@@ -75,18 +88,22 @@
       }
     },
     {
-      "place": "mohamed v",
+      "name": "mohamed 2",
       "info": "ARsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
       "puzzle": 2,
+      "pictures": [ "pic1.png", "pic2.png" ],
+
       "puzzleData": {
         "questions": [ "1990", "1992", "1996", "2005" ],
         "answers": [ "Aevnt1", "evnt2", "evnt3", "evnt4" ]
       }
     },
     {
-      "place": "mohamed6",
+      "name": "mohamed 3",
       "info": "ARsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
       "puzzle": 3,
+      "pictures": [ "pic1.png", "pic2.png" ],
+
       "puzzleData": {
         "questions": "image1",
         "answers": [ "2", "1", "4", "6" ]
