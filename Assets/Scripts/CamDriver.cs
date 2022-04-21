@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class camera : MonoBehaviour
+public class CamDriver : MonoBehaviour
 {
 
     [SerializeField]
-    private Camera cam; 
+    private Camera cam;
 
 
     [SerializeField]
     private SpriteRenderer mapRenderer;
     private float mapMinX, mapMaxX, mapMinY, mapMaxY;
-
+    public static bool dragging = true;
     private Vector3 dragOrigin;
 
 
@@ -35,7 +35,11 @@ public class camera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PanCamera();
+        if (dragging)
+        {
+            PanCamera();
+        }
+
     }
 
     private void PanCamera()
@@ -49,7 +53,7 @@ public class camera : MonoBehaviour
             Vector3 difference = dragOrigin - cam.ScreenToWorldPoint(Input.mousePosition);
             //print("origin " + dragOrigin + " newPosition " + cam.ScreenToWorldPoint(Input.mousePosition) + " =difference" + difference);
 
-            cam.transform.position = ClampCamera(cam.transform.position + difference);   
+            cam.transform.position = ClampCamera(cam.transform.position + difference);
 
         }
 
