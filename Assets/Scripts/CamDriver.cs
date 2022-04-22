@@ -12,8 +12,8 @@ public class CamDriver : MonoBehaviour
     [SerializeField]
     private SpriteRenderer mapRenderer;
     private float mapMinX, mapMaxX, mapMinY, mapMaxY;
-    public static bool dragging = true;
     private Vector3 dragOrigin;
+    public GameObject[] Array;// create an array
 
 
     private void Awake()
@@ -35,7 +35,11 @@ public class CamDriver : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (dragging)
+
+        Array = GameObject.FindGameObjectsWithTag("freezCam");// set the array to hold all GameObjects with the specified tag
+
+        // check if there are any GameObjects (with the specified tag) spawned
+        if (Array.Length == 0)
         {
             PanCamera();
         }
