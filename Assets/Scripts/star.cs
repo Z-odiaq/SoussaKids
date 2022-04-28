@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
+using UnityEngine.UI;
 
 
 [System.Serializable]
@@ -72,6 +73,10 @@ public class star : MonoBehaviour
     public GameObject placeDesc;
     public GameObject placetitle;
     public TextAsset jsonFile;
+    public GameObject jgsawPuzzle;
+    public GameObject matchingGame;
+    public GameObject gameButton;
+    public GameObject placeWindow;
 
     // Start is called before the first frame update
     void Start()
@@ -89,18 +94,32 @@ public class star : MonoBehaviour
     }
     void OnMouseDown()
     {
-        if (Input.GetMouseButtonDown(0))
+
+        if (GameObject.FindGameObjectsWithTag("freezCam").Length ==0)
         {
             string lang = settings.settings.lang == "EN" ? "placesFR" : settings.settings.lang == "FR" ? "placesFR" : "placesAR";
             foreach (Place place in placeslists.GetPlaces(lang))
             {
                 if (place.name.ToLower() == PlaceName.ToLower())
                 {
+                    Debug.Log(place.puzzle);
                     placeDesc.GetComponent<UnityEngine.UI.Text>().text = place.info;
                     placetitle.GetComponent<UnityEngine.UI.Text>().text = place.name;
+                    if (place.puzzle == "1")
+                    {
+                        
+                        gameButton.GetComponent<Button>().onClick.AddListener(() => { matchingGame.SetActive(true); placeWindow.SetActive(false); });
+                    }
+                    else if (place.puzzle == "2")
+                    {
+                       
+                        gameButton.GetComponent<Button>().onClick.AddListener(() => { jgsawPuzzle.SetActive(true); placeWindow.SetActive(false); });
+
+                    }
+
                 }
+                placeControler.SetActive(true);
             }
-            placeControler.SetActive(true);
         }
     }
 }
