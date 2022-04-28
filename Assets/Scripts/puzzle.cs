@@ -13,6 +13,8 @@ public class puzzle : MonoBehaviour
     Transform[] ps;
     public bool bingo = false;
     public GameObject pieces;
+    public GameObject successWindow;
+
     void Start()
     {
         System.Random rnd = new System.Random();
@@ -123,7 +125,8 @@ public class puzzle : MonoBehaviour
         }
         if (bingo)
         {
-            Debug.Log("yes");
+            successWindow.SetActive(true);
+            this.gameObject.SetActive(false);
         }
 
     }
