@@ -27,7 +27,7 @@
     {
       "name": "mohamed 3",
       "info": "ENsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
-      "puzzle": 3,
+      "puzzle": 2,
       "pictures": [ "pic1.png", "pic2.png" ],
 
       "puzzleData": {
@@ -101,7 +101,7 @@
     {
       "name": "mohamed 3",
       "info": "ARsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
-      "puzzle": 3,
+      "puzzle": 2,
       "pictures": [ "pic1.png", "pic2.png" ],
 
       "puzzleData": {
@@ -111,7 +111,7 @@
     }
   ],
   "settings": {
-    "lang": "EN",
+    "lang": "FR",
     "vol": 50
   },
   "uiEN": {
