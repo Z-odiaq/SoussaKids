@@ -69,11 +69,10 @@ public class star : MonoBehaviour
     public PlacesList placeslists = new PlacesList();
     public SettingsG settings = new SettingsG();
     public string PlaceName = "";
-    public GameObject placeControler;
-    public GameObject placeDesc;
-    public GameObject placetitle;
+    public GameObject placeDescription;
+    public GameObject placeTitle;
     public TextAsset jsonFile;
-    public GameObject jgsawPuzzle;
+    public GameObject puzzle;
     public GameObject matchingGame;
     public GameObject gameButton;
     public GameObject placeWindow;
@@ -90,7 +89,7 @@ public class star : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
- 
+
     }
     void OnMouseDown()
     {
@@ -102,23 +101,22 @@ public class star : MonoBehaviour
             {
                 if (place.name.ToLower() == PlaceName.ToLower())
                 {
-                    Debug.Log(place.puzzle);
-                    placeDesc.GetComponent<UnityEngine.UI.Text>().text = place.info;
-                    placetitle.GetComponent<UnityEngine.UI.Text>().text = place.name;
+                    placeDescription.GetComponent<UnityEngine.UI.Text>().text = place.info;
+                    placeTitle.GetComponent<UnityEngine.UI.Text>().text = place.name;
                     if (place.puzzle == "1")
                     {
-                        
+                      
                         gameButton.GetComponent<Button>().onClick.AddListener(() => { matchingGame.SetActive(true); placeWindow.SetActive(false); });
                     }
                     else if (place.puzzle == "2")
                     {
                        
-                        gameButton.GetComponent<Button>().onClick.AddListener(() => { jgsawPuzzle.SetActive(true); placeWindow.SetActive(false); });
+                        gameButton.GetComponent<Button>().onClick.AddListener(() => { puzzle.SetActive(true); placeWindow.SetActive(false); });
 
                     }
 
                 }
-                placeControler.SetActive(true);
+                placeWindow.SetActive(true);
             }
         }
     }
