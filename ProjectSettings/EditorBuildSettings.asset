@@ -5,13 +5,43 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/start.unity
     guid: b2291480654a336448784fd47cbf6482
   - enabled: 1
     path: Assets/Scenes/main.unity
     guid: f0c28957f3106454dbe9956ffdcd16ae
+  - enabled: 1
+    path: Assets/Scenes/WordSearch.unity
+    guid: d426e86dc8d3aba42906f2d60d3f8533
+  - enabled: 1
+    path: Assets/Scenes/Casbah.unity
+    guid: 4f0d80a6a9d413645b032a94f176091c
+  - enabled: 1
+    path: Assets/Scenes/CrossWords.unity
+    guid: 24e7864e4c012744c8407e1cca59b3e2
+  - enabled: 1
+    path: Assets/Scenes/Jigsaw.unity
+    guid: 27138d9177e174543b1106894c837e20
+  - enabled: 1
+    path: Assets/Scenes/Memory.unity
+    guid: d110d921efc19a64990c820fed3238ee
+  - enabled: 1
+    path: Assets/Scenes/Mosque.unity
+    guid: c68e7fe3cfc0f0441945a8445290d787
+  - enabled: 1
+    path: "Assets/Scenes/Mus\xE9e.unity"
+    guid: 0962a89fd56886b41a72f556f121fd81
+  - enabled: 1
+    path: Assets/Scenes/QuestRep.unity
+    guid: 8a1775a5382d91a41a5bb8b77b5c1611
+  - enabled: 1
+    path: Assets/Scenes/Ribat.unity
+    guid: 406e8fa27c91a4b49ae415ef6d47f99c
+  - enabled: 1
+    path: Assets/Scenes/Tour_Khalaf.unity
+    guid: 318a8d9a3cc509e4293aac8ffc48c9e3
   m_configObjects: {}

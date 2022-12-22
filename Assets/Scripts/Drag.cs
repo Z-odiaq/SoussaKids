@@ -37,6 +37,7 @@ public class Drag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHand
         {
             GetComponent<RectTransform>().anchoredPosition = OriginalVector2;
             moved = false;
+            //
         }
         CanvasGroup.alpha = 1f;
         CanvasGroup.blocksRaycasts = true;

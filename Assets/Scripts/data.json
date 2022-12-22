@@ -2,9 +2,9 @@
 
   "placesEN": [
     {
-      "name": "mohamed 1",
-      "info": "ENsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
-      "puzzle": 1,
+      "name": "Sidi_ElHeni",
+      "info": "Sidi El Hani (arabe : سيدي الهاني), également orthographié Sidi El Heni, est une ville du Sahel tunisien située à une trentaine de kilomètres au sud-ouest de Sousse et une vingtaine de kilomètres à l'est de Kairouan.",
+      "puzzle": 1, 
       "pictures": ["pic1.png", "pic2.png"],
       "puzzleData": {
         "questions": [ "ENquestion1", "question2", "question3" ],
@@ -15,18 +15,18 @@
     },
     {
       "name": "mohamed 2",
-      "info": "ENsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
+      "info": "Med 2",
       "puzzle": 2,
       "pictures": [ "pic1.png", "pic2.png" ],
 
       "puzzleData": {
         "questions": [ "1990", "1992", "1996", "2005" ],
-        "answers": [ "ENevnt1", "evnt2", "evnt3", "evnt4" ]
+        "answers": [ "ENevyynt1", "evnt2", "evnt3", "evnt4" ]
       }
     },
     {
       "name": "mohamed 3",
-      "info": "ENsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
+      "info": "Med 3",
       "puzzle": 2,
       "pictures": [ "pic1.png", "pic2.png" ],
 
@@ -38,8 +38,8 @@
   ],
   "placesFR": [
     {
-      "name": "mohamed 1",
-      "info": "FRsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
+      "name": "Sidi_ElHeni",
+      "info": "Sidi_ElHeni",
       "puzzle": 1,
       "pictures": [ "pic1.png", "pic2.png" ],
 
@@ -52,7 +52,7 @@
     },
     {
       "name": "mohamed 2",
-      "info": "FRsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
+      "info": "med 2",
       "puzzle": 2,
       "pictures": [ "pic1.png", "pic2.png" ],
 
@@ -63,7 +63,7 @@
     },
     {
       "name": "mohamed 3",
-      "info": "FRsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
+      "info": "med 3",
       "puzzle": 3,
       "pictures": [ "pic1.png", "pic2.png" ],
 
@@ -76,7 +76,7 @@
   "placesAR": [
     {
       "name": "mohamed 1",
-      "info": "ARsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
+      "info": "med 3",
       "puzzle": 1,
       "pictures": [ "pic1.png", "pic2.png" ],
 
@@ -89,7 +89,7 @@
     },
     {
       "name": "mohamed 2",
-      "info": "ARsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
+      "info": "med 3",
       "puzzle": 2,
       "pictures": [ "pic1.png", "pic2.png" ],
 
@@ -100,7 +100,7 @@
     },
     {
       "name": "mohamed 3",
-      "info": "ARsfsf fqsdfs dfgsdfg sdfgsdfgsq dgqsdg qsdgqsdg qsgqgq qfdg qqfg gqsdgqfdgq gqfgqg q qf gqdfgqdfgqddfgqfg q fdg fdgqdfgqfd gsdfg qdg q g qdfg  dfg qdg",
+      "info": "med 3",
       "puzzle": 2,
       "pictures": [ "pic1.png", "pic2.png" ],
 
@@ -111,7 +111,7 @@
     }
   ],
   "settings": {
-    "lang": "FR",
+    "lang": "EN",
     "vol": 50
   },
   "uiEN": {

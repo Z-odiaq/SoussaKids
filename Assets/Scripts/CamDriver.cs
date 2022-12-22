@@ -36,13 +36,18 @@ public class CamDriver : MonoBehaviour
     void Update()
     {
 
-        Array = GameObject.FindGameObjectsWithTag("freezCam");// set the array to hold all GameObjects with the specified tag
-
-        // check if there are any GameObjects (with the specified tag) spawned
-        if (Array.Length == 0)
+        if (Input.GetAxis("Mouse ScrollWheel") > 0) // back
         {
-            PanCamera();
+            Camera.main.orthographicSize = Mathf.Max(Camera.main.orthographicSize - 100, 200);
+
         }
+        if (Input.GetAxis("Mouse ScrollWheel") < 0) // forward
+        {
+            Camera.main.orthographicSize = Mathf.Min(Camera.main.orthographicSize + 100, 1500);
+        }
+        // check if there are any GameObjects (with the specified tag) spawned
+        PanCamera();
+
 
     }
 

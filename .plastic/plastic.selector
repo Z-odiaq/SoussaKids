@@ -1,0 +1,4 @@
+repository "SoussaKids@Bujupah@cloud"
+  path "/"
+    br "/main"
+    co "/main"
