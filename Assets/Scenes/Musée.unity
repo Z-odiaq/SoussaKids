@@ -131,91 +131,113 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 6572008351113485829}
     m_Modifications:
-    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+        type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+        type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+        type: 3}
       propertyPath: m_RootOrder
       value: -1
       objectReference: {fileID: 0}
-    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+        type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+        type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+        type: 3}
       propertyPath: m_AnchorMin.x
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+        type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+        type: 3}
       propertyPath: m_SizeDelta.x
       value: 80
       objectReference: {fileID: 0}
-    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+        type: 3}
       propertyPath: m_SizeDelta.y
       value: 80
       objectReference: {fileID: 0}
-    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+        type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+        type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+        type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+        type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+        type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+        type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -2
       objectReference: {fileID: 0}
-    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+        type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -56
       objectReference: {fileID: 0}
-    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+    - target: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1250757255730402327, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+    - target: {fileID: 1250757255730402327, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+        type: 3}
       propertyPath: m_Name
       value: homeBtn
       objectReference: {fileID: 0}
@@ -224,12 +246,14 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
 --- !u!4 &721933886 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb, type: 3}
+  m_CorrespondingSourceObject: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb,
+    type: 3}
   m_PrefabInstance: {fileID: 6572008350288688544}
   m_PrefabAsset: {fileID: 0}
 --- !u!328 &721933887 stripped
 VideoPlayer:
-  m_CorrespondingSourceObject: {fileID: 3516857995048794725, guid: 4405b46b0aafbcd409b6b80559a50beb, type: 3}
+  m_CorrespondingSourceObject: {fileID: 3516857995048794725, guid: 4405b46b0aafbcd409b6b80559a50beb,
+    type: 3}
   m_PrefabInstance: {fileID: 6572008350288688544}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &839917002
@@ -573,12 +597,14 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &2063433336 stripped
 RectTransform:
-  m_CorrespondingSourceObject: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1250757255730402326, guid: d8bd42186b5e2cf4ca2d7715803bc171,
+    type: 3}
   m_PrefabInstance: {fileID: 665472432}
   m_PrefabAsset: {fileID: 0}
 --- !u!224 &2101312172 stripped
 RectTransform:
-  m_CorrespondingSourceObject: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+  m_CorrespondingSourceObject: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed,
+    type: 3}
   m_PrefabInstance: {fileID: 6572008350114552660}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &6572008349020883397
@@ -1243,7 +1269,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1255,7 +1282,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1267,7 +1295,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: b96f038290a3fc1489c927614004210a, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: b96f038290a3fc1489c927614004210a,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1279,7 +1308,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1291,7 +1321,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1303,7 +1334,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1315,7 +1347,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1448,7 +1481,7 @@ RectTransform:
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.9999999, y: 1}
+  m_AnchorMax: {x: 0.9932279, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1890,7 +1923,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 853.8796}
+  m_SizeDelta: {x: 0, y: 1509.4104}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &6572008349375073434
 MonoBehaviour:
@@ -1925,15 +1958,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: "D\xE9finition du terme\xAB mus\xE9e\xBB :\t\r\nLe \xAB mus\xE9e \xBB est
-    \xAB une institution permanente, \xE0 but non lucratif et au service de la soci\xE9t\xE9,
-    qui se consacre \xE0 la recherche, la collecte, la conservation, l\u2019interpr\xE9tation
-    et l\u2019exposition du patrimoine mat\xE9riel et immat\xE9riel. Ouvert au public,
-    accessible et inclusif, il encourage la diversit\xE9 et la durabilit\xE9. Les
-    mus\xE9es op\xE8rent et communiquent de mani\xE8re \xE9thique et professionnelle,
-    avec la participation de diverses communaut\xE9s. Ils offrent \xE0 leurs publics
-    des exp\xE9riences vari\xE9es d\u2019\xE9ducation, de divertissement, de r\xE9flexion
-    et de partage de connaissances. \xBB\r\n\r\n"
+  m_Text: "La cr\xE9ation de l\u2019actuel Mus\xE9e Arch\xE9ologique de Sousse fut
+    d\xE9cid\xE9e \xE0 la suite de la destruction du Mus\xE9e Municipal \xE0 cause
+    des bombardements de l\u2019ann\xE9e 1943 lors de la Deuxi\xE8me Guerre Mondiale.\r\n\uF0D8\tEn
+    Mars 1951, le mus\xE9e fut baptis\xE9 officiellement \xAB Mus\xE9e arch\xE9ologique
+    de Sousse \xBB et dirig\xE9 par Louis Foucher, un c\xE9l\xE8bre et important
+    arch\xE9ologue qui a travaill\xE9 sur les vestiges de l\u2019antique Hadrum\xE8te.\r\n\uF0D8\tAfin
+    de pr\xE9server ce patrimoine unique et de le valoriser en tenant compte de l\u2019\xE9volution
+    des techniques   de pr\xE9sentation mus\xE9ographique   contemporaine, un projet
+    de r\xE9am\xE9nagement a \xE9t\xE9 lanc\xE9 en 2007, sous la supervision de l'Institut
+    national du patrimoine et des diff\xE9rentes structures intervenantes et associ\xE9es
+    et dont les travaux allaient se poursuivre jusqu\u2019en 2012. \r\n\uF0D8\tLe
+    9 juin 2012, le mus\xE9e arch\xE9ologique a rouvert ses portes pour accueillir
+    les visiteurs avec des salles d'exposition souterraines modernes.\r\n\r\n"
 --- !u!222 &6572008349375073435
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2137,7 +2174,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2149,7 +2187,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2161,7 +2200,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2173,7 +2213,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2185,7 +2226,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: b96f038290a3fc1489c927614004210a, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: b96f038290a3fc1489c927614004210a,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2197,7 +2239,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2209,7 +2252,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2630,7 +2674,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: b96f038290a3fc1489c927614004210a, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: b96f038290a3fc1489c927614004210a,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2642,7 +2687,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2654,7 +2700,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2666,7 +2713,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2678,7 +2726,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2690,7 +2739,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2702,7 +2752,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3102,7 +3153,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3114,7 +3166,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: b96f038290a3fc1489c927614004210a, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: b96f038290a3fc1489c927614004210a,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3126,7 +3179,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3138,7 +3192,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3150,7 +3205,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3162,7 +3218,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3174,7 +3231,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3472,7 +3530,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3484,7 +3543,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3496,7 +3556,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3508,7 +3569,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: b96f038290a3fc1489c927614004210a, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: b96f038290a3fc1489c927614004210a,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3520,7 +3582,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3532,7 +3595,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3544,7 +3608,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3996,8 +4061,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.9321, y: -8.2179}
-  m_SizeDelta: {x: 332.1796, y: 415.1328}
+  m_AnchoredPosition: {x: -4.9321, y: -23.374}
+  m_SizeDelta: {x: 332.1796, y: 445.44}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &6572008349719038333
 GameObject:
@@ -4344,7 +4409,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6572008350153238476}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.2628809
+  m_Size: 0.24518265
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4590,8 +4655,8 @@ RectTransform:
   m_Father: {fileID: 6572008349719038334}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0.5879803}
+  m_AnchorMax: {x: 1, y: 0.9999999}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -5154,7 +5219,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6572008349296137993}
   m_Direction: 0
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.9932279
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5358,95 +5423,118 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 6572008351032337573}
     m_Modifications:
-    - target: {fileID: 9121104124259331019, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331019, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: videoPlayer
       value: 
       objectReference: {fileID: 721933887}
-    - target: {fileID: 9121104124259331020, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331020, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: m_Name
       value: PlaybackProgress
       objectReference: {fileID: 0}
-    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: m_SizeDelta.x
       value: -40.4581
       objectReference: {fileID: 0}
-    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: m_SizeDelta.y
       value: 4.65
       objectReference: {fileID: 0}
-    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 6.797806
       objectReference: {fileID: 0}
-    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 19.199997
       objectReference: {fileID: 0}
-    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed, type: 3}
+    - target: {fileID: 9121104124259331021, guid: d8e67784754f42f49b1bb912087ff1ed,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
@@ -5786,7 +5874,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.00012403147, y: -0.0005254315}
-  m_SizeDelta: {x: -15.9936, y: 1982.2505}
+  m_SizeDelta: {x: -0.00012207, y: 1521.0745}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &6572008350136430782
 MonoBehaviour:
@@ -5821,10 +5909,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.22
-  m_Text: "Information sur l\u2019acc\xE8s :\tLe mus\xE9e garantit :\n\n1) la possibilit\xE9
-    de visites guid\xE9es\n2) la possibilit\xE9 de s\xE9ances de laboratoire \xE9ducatif\n3)
-    l\u2019accessibilit\xE9 aux personnes handicap\xE9es en fauteuil roulant\n\nRessources
-    en ligne :\t Nom : Le mus\xE9e arch\xE9ologique de Sousse.\nURL: https://www.tunisiepatrimoine.tn/musees/musee-archeologique-de-sousse/apercu/\n\n\nHoraires
+  m_Text: "Information sur l\u2019acc\xE8s :\t\n\nLe mus\xE9e garantit :\n\n1) la
+    possibilit\xE9 de visites guid\xE9es\n2) la possibilit\xE9 de s\xE9ances de laboratoire
+    \xE9ducatif\n3) l\u2019accessibilit\xE9 aux personnes handicap\xE9es en fauteuil
+    roulant\n\nRessources en ligne :\t \n\nNom : Le mus\xE9e arch\xE9ologique de
+    Sousse.\nURL: https://www.tunisiepatrimoine.tn/musees/musee-archeologique-de-sousse/apercu/\n\n\nHoraires
     d\u2019ouvertures :\t\n\nHoraire Hiver : 09 :00 - 17 :00\nHoraire Et\xE9 : 09
     :00 - 18 :00\nHoraire Ramadan : 09 :00-16 :00\nPas d\u2019acc\xE8s chaque lundi.\n\nDroits
     d\u2019entr\xE9e :\t\n\n-R\xE9sident : 5 10 Dinars Tunisien.\n-Non R\xE9sident
@@ -5943,7 +6032,7 @@ RectTransform:
   m_Father: {fileID: 6572008349020883398}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.7371191}
+  m_AnchorMin: {x: 0, y: 0.75481737}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -6047,8 +6136,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6572008350185624297}
   m_HandleRect: {fileID: 6572008350185624296}
   m_Direction: 2
-  m_Value: 1.0000004
-  m_Size: 0.1992733
+  m_Value: 1.0000005
+  m_Size: 0.2738727
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6146,7 +6235,7 @@ RectTransform:
   m_Father: {fileID: 6572008350102815957}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.8007267}
+  m_AnchorMin: {x: 0, y: 0.72612727}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -6325,7 +6414,7 @@ RectTransform:
   m_Father: {fileID: 6572008350309761129}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5337366}
+  m_AnchorMin: {x: 0, y: 0.7074926}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -6368,71 +6457,88 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 6572008349428964272}
     m_Modifications:
-    - target: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb, type: 3}
+    - target: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb,
+        type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb, type: 3}
+    - target: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb, type: 3}
+    - target: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb,
+        type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb, type: 3}
+    - target: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb,
+        type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb, type: 3}
+    - target: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb,
+        type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb, type: 3}
+    - target: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb, type: 3}
+    - target: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb,
+        type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb, type: 3}
+    - target: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb,
+        type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb, type: 3}
+    - target: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb, type: 3}
+    - target: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb, type: 3}
+    - target: {fileID: 3516857995048794724, guid: 4405b46b0aafbcd409b6b80559a50beb,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3516857995048794725, guid: 4405b46b0aafbcd409b6b80559a50beb, type: 3}
+    - target: {fileID: 3516857995048794725, guid: 4405b46b0aafbcd409b6b80559a50beb,
+        type: 3}
       propertyPath: m_Url
       value: https://unity-youtube-dl-server.herokuapp.com/watch?v=CKVY5IZnhN0&cli=yt-dlp
       objectReference: {fileID: 0}
-    - target: {fileID: 3516857995048794725, guid: 4405b46b0aafbcd409b6b80559a50beb, type: 3}
+    - target: {fileID: 3516857995048794725, guid: 4405b46b0aafbcd409b6b80559a50beb,
+        type: 3}
       propertyPath: m_RenderMode
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 3516857995048794725, guid: 4405b46b0aafbcd409b6b80559a50beb, type: 3}
+    - target: {fileID: 3516857995048794725, guid: 4405b46b0aafbcd409b6b80559a50beb,
+        type: 3}
       propertyPath: m_TargetTexture
       value: 
       objectReference: {fileID: 8400000, guid: 9f4ccea99b3b5da459e47dda0065d28e, type: 2}
-    - target: {fileID: 3516857995048794726, guid: 4405b46b0aafbcd409b6b80559a50beb, type: 3}
+    - target: {fileID: 3516857995048794726, guid: 4405b46b0aafbcd409b6b80559a50beb,
+        type: 3}
       propertyPath: m_Name
       value: YoutubePlayer
       objectReference: {fileID: 0}
-    - target: {fileID: 3516857995048794726, guid: 4405b46b0aafbcd409b6b80559a50beb, type: 3}
+    - target: {fileID: 3516857995048794726, guid: 4405b46b0aafbcd409b6b80559a50beb,
+        type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3516857995048794727, guid: 4405b46b0aafbcd409b6b80559a50beb, type: 3}
+    - target: {fileID: 3516857995048794727, guid: 4405b46b0aafbcd409b6b80559a50beb,
+        type: 3}
       propertyPath: youtubeUrl
       value: 
       objectReference: {fileID: 0}
@@ -6733,8 +6839,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -15.0888, y: 1514.4988}
+  m_AnchoredPosition: {x: 0.00025915276, y: 0}
+  m_SizeDelta: {x: -15.0888, y: 1650.2795}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &6572008350353789249
 MonoBehaviour:
@@ -6769,20 +6875,20 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: "Description du lieu:\tLes collections arch\xE9ologiques du mus\xE9e se
-    composent principalement de peintures en mosa\xEFque, qui comptent parmi les
-    plus importantes collections de la r\xE9gion m\xE9diterran\xE9enne, datant des
-    IIe et IIIe si\xE8cles de notre \xE8re pendant la p\xE9riode romaine jusqu'\xE0
-    la p\xE9riode chr\xE9tienne, ainsi que d'ob\xE9lisques et d'inscriptions fun\xE9raires
-    qui ont \xE9t\xE9 trouv\xE9s dans les catacombes souterraines de la ville de
-    Sousse.\r\n\r\nLe mus\xE9e de Sousse contient \xE9galement le mobilier fun\xE9raire
-    le plus pr\xE9cieux, y compris les ob\xE9lisques et les urnes trouv\xE9s dans
-    le temple Tophet de la ville punique d'Hadrim, en plus du mobilier fun\xE9raire
-    provenant des fouilles qui ont \xE9t\xE9 effectu\xE9es \xE0 l'int\xE9rieur du
-    monument de la Kasbah lors de l'agrandissement et de la r\xE9habilitation du
-    mus\xE9e. \r\n\r\n Le visiteur du mus\xE9e aime \xE9galement d\xE9couvrir d'importantes
-    collections de sculptures romaines uniques en marbre et des collections de poteries
-    de r\xE9cipients en fine poterie rouge.\r\n\r\n\r\n"
+  m_Text: "Les collections arch\xE9ologiques du mus\xE9e se composent principalement
+    de peintures en mosa\xEFque, qui comptent parmi les plus importantes collections
+    de la r\xE9gion m\xE9diterran\xE9enne, datant des IIe et IIIe si\xE8cles de notre
+    \xE8re pendant la p\xE9riode romaine jusqu'\xE0 la p\xE9riode chr\xE9tienne,
+    ainsi que d'ob\xE9lisques et d'inscriptions fun\xE9raires qui ont \xE9t\xE9 trouv\xE9s
+    dans les catacombes souterraines de la ville de Sousse.\r\n\r\nLe mus\xE9e de
+    Sousse contient \xE9galement le mobilier fun\xE9raire le plus pr\xE9cieux, y
+    compris les ob\xE9lisques et les urnes trouv\xE9s dans le temple Tophet de la
+    ville punique d'Hadrim, en plus du mobilier fun\xE9raire provenant des fouilles
+    qui ont \xE9t\xE9 effectu\xE9es \xE0 l'int\xE9rieur du monument de la Kasbah
+    lors de l'agrandissement et de la r\xE9habilitation du mus\xE9e. \r\n\r\n Le
+    visiteur du mus\xE9e aime \xE9galement d\xE9couvrir d'importantes collections
+    de sculptures romaines uniques en marbre et des collections de poteries de r\xE9cipients
+    en fine poterie rouge.\r\n\r\n\r\n"
 --- !u!222 &6572008350353789250
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7071,7 +7177,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -7083,7 +7190,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -7095,7 +7203,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -7107,7 +7216,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -7119,7 +7229,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -7131,7 +7242,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -7143,7 +7255,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: b96f038290a3fc1489c927614004210a, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: b96f038290a3fc1489c927614004210a,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -7585,7 +7698,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6572008350284270114}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.46626338
+  m_Size: 0.29250738
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7738,8 +7851,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6572008349901688069}
   m_HandleRect: {fileID: 6572008349901688068}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 1
+  m_Value: 0.9999999
+  m_Size: 0.41201964
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -8077,8 +8190,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0355, y: -6.6563}
-  m_SizeDelta: {x: 322.2444, y: 412.0096}
+  m_AnchoredPosition: {x: 0.0355, y: -17.441998}
+  m_SizeDelta: {x: 322.2444, y: 433.5808}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6572008350705170293
 MonoBehaviour:
@@ -8194,7 +8307,7 @@ RectTransform:
   m_GameObject: {fileID: 6572008350752671928}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.27000046}
-  m_LocalScale: {x: 1.3499999, y: 1.3499999, z: 0.9}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 0.9}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6572008350323396389}
@@ -8203,7 +8316,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00052976486, y: 537.30005}
+  m_AnchoredPosition: {x: 0.00052976486, y: 601}
   m_SizeDelta: {x: 442, y: 92.2987}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6572008350752671930
@@ -8806,8 +8919,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.9321, y: -8.218}
-  m_SizeDelta: {x: 332.1796, y: 415.1328}
+  m_AnchoredPosition: {x: -4.9321, y: -11.4617}
+  m_SizeDelta: {x: 332.1796, y: 421.6199}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &6572008350865112448
 RectTransform:
@@ -8827,7 +8940,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0.000072674025}
-  m_SizeDelta: {x: 0, y: 399.9026}
+  m_SizeDelta: {x: 0, y: 984.1433}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &6572008350865112449
 MonoBehaviour:
@@ -8862,15 +8975,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: "D\xE9finition du terme\xAB mus\xE9e\xBB :\t\r\nLe \xAB mus\xE9e \xBB est
-    \xAB une institution permanente, \xE0 but non lucratif et au service de la soci\xE9t\xE9,
-    qui se consacre \xE0 la recherche, la collecte, la conservation, l\u2019interpr\xE9tation
-    et l\u2019exposition du patrimoine mat\xE9riel et immat\xE9riel. Ouvert au public,
-    accessible et inclusif, il encourage la diversit\xE9 et la durabilit\xE9. Les
-    mus\xE9es op\xE8rent et communiquent de mani\xE8re \xE9thique et professionnelle,
-    avec la participation de diverses communaut\xE9s. Ils offrent \xE0 leurs publics
-    des exp\xE9riences vari\xE9es d\u2019\xE9ducation, de divertissement, de r\xE9flexion
-    et de partage de connaissances. \xBB\r\n\r\n"
+  m_Text: "\t\rLe \xAB mus\xE9e \xBB est \xAB une institution permanente, \xE0 but
+    non lucratif et au service de la soci\xE9t\xE9, qui se consacre \xE0 la recherche,
+    la collecte, la conservation, l\u2019interpr\xE9tation et l\u2019exposition du
+    patrimoine mat\xE9riel et immat\xE9riel. Ouvert au public, accessible et inclusif,
+    il encourage la diversit\xE9 et la durabilit\xE9. Les mus\xE9es op\xE8rent et
+    communiquent de mani\xE8re \xE9thique et professionnelle, avec la participation
+    de diverses communaut\xE9s. Ils offrent \xE0 leurs publics des exp\xE9riences
+    vari\xE9es d\u2019\xE9ducation, de divertissement, de r\xE9flexion et de partage
+    de connaissances. \xBB\r\n\r\n"
 --- !u!222 &6572008350865112450
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9567,7 +9680,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -9579,7 +9693,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -9591,7 +9706,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -9603,7 +9719,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -9615,7 +9732,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -9627,7 +9745,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: b96f038290a3fc1489c927614004210a, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: b96f038290a3fc1489c927614004210a,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -9639,7 +9758,8 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 00795253c49195649bca092aa0f0763e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -9984,7 +10104,7 @@ RectTransform:
   m_GameObject: {fileID: 6572008351113485828}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3499999, y: 1.3499999, z: 0.9}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 0.9}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6572008349879569314}
